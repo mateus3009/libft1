@@ -6,7 +6,7 @@
 /*   By: msales-a <msales-a@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 11:22:11 by msales-a          #+#    #+#             */
-/*   Updated: 2020/02/08 18:00:26 by msales-a         ###   ########.fr       */
+/*   Updated: 2020/02/10 20:38:55 by msales-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!(dest = (char*)malloc(sizeof(char) * (len + 1))))
 		return (0);
 	index = 0;
-	while (index < (int)len)
+	while (s[index] && index < (int)len)
 	{
 		dest[index] = *(s + start + index);
 		index++;
