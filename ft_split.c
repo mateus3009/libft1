@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msales-a <msales-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: msales-a <msales-a@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 12:08:10 by msales-a          #+#    #+#             */
-/*   Updated: 2020/02/08 17:59:35 by msales-a         ###   ########.fr       */
+/*   Updated: 2020/04/19 17:54:25 by msales-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 int			ft_count_segment(char const *str, char c)
 {

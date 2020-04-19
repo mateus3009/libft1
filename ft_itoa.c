@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msales-a <msales-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: msales-a <msales-a@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 13:22:28 by msales-a          #+#    #+#             */
-/*   Updated: 2020/02/08 19:17:02 by msales-a         ###   ########.fr       */
+/*   Updated: 2020/04/19 17:53:06 by msales-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_itoa(int n)
 {

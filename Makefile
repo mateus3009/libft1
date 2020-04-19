@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: msales-a <msales-a@student.42.fr>          +#+  +:+       +#+         #
+#    By: msales-a <msales-a@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/23 20:52:40 by msales-a          #+#    #+#              #
-#    Updated: 2020/02/10 20:22:56 by msales-a         ###   ########.fr        #
+#    Updated: 2020/04/19 17:51:02 by msales-a         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,7 @@ PART2 = ft_substr.c \
 	    ft_split.c \
 	    ft_algs_num.c \
 	    ft_itoa.c \
+		ft_itoabase.c \
 	    ft_strmapi.c \
 	    ft_putchar_fd.c \
 	    ft_putstr_fd.c \

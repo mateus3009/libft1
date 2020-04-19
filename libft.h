@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msales-a <msales-a@student.42.fr>          +#+  +:+       +#+        */
+/*   By: msales-a <msales-a@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/23 20:45:32 by msales-a          #+#    #+#             */
-/*   Updated: 2020/02/08 19:17:55 by msales-a         ###   ########.fr       */
+/*   Updated: 2020/04/19 17:53:51 by msales-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include <stddef.h>
+
+#include <stddef.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <unistd.h>
 
 typedef struct	s_list
 {
@@ -53,6 +57,7 @@ char			*ft_strtrim(char const *s1, char const *s2);
 char			**ft_split(char const *s, char c);
 int				ft_algs_num(long n);
 char			*ft_itoa(int n);
+char			*ft_itoabase(long number, char const *base);
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void			ft_putchar_fd(unsigned int c, int fd);
 void			ft_putstr_fd(char *s, int fd);
